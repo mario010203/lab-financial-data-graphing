@@ -9,7 +9,6 @@ axios
 
 function printTheChart(stockData) {
   const dailyData = stockData["bpi"];
-
   const stockDates = Object.keys(dailyData);
   const stockPrices = stockDates.map(date => dailyData[date]);
 
